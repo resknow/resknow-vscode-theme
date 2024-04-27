@@ -26,5 +26,8 @@
 				"path": "./themes/Resknow-color-theme.json"
 			}
 		]
+	},
+	"scripts": {
+		"publish": "vsce publish"
 	}
 }
