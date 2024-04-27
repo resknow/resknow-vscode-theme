@@ -1,21 +1,30 @@
 {
-  "name": "resknow",
-  "displayName": "resknow",
-  "description": "VSCode theme made with Resknow colours",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.88.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Resknow",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Resknow-color-theme.json"
-      }
-    ]
-  }
+	"name": "resknow",
+	"displayName": "resknow",
+	"description": "VSCode theme made with Resknow colours",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.88.0"
+	},
+	"publisher": "Resknow",
+	"categories": [
+		"Themes"
+	],
+	"author": {
+		"name": "Chris Galbraith",
+		"url": "https://github.com/chrismademe"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/resknow/resknow-vscode-theme.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Resknow",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Resknow-color-theme.json"
+			}
+		]
+	}
 }
